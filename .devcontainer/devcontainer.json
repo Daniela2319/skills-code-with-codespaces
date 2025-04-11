@@ -2,11 +2,12 @@
 {
   // Name this configuration
   "name": "Codespace for Skills!",
-  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",
 
   // Use the base codespace image
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
 
   "remoteUser": "codespace",
-  "overrideCommand": false
+  "overrideCommand": false,
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+
 }
